@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class VariousVariables {
+public class birdManager {
 
     public static void main(String[] args) {
 
