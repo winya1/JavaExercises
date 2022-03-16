@@ -13,8 +13,6 @@ public class Main {
                 break;
             }
 
-            if (Integer.valueOf(row))
-
             list.add(Integer.valueOf(row));
         }
         System.out.println(positive(list));
