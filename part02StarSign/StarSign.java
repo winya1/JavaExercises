@@ -1,3 +1,18 @@
+/* 
+Part 1: Printing stars
+Define a method called printStars that prints the given number of stars and a line break.
+
+Part 2: Printing a square
+Define a method called printSquare(int size) that prints a suitable square with the help of the printStars method
+
+Part 3: Printing a rectangle
+Write a method called printRectangle(int width, int height) that prints the correct rectangle by using the printStars method.
+
+Part 4: Printing a triangle
+Create a method called printTriangle(int size) that prints a triangle by using the printStars method. */
+
+
+
 public class StarSign {
 
     public static void main(String[] args) {
