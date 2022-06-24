@@ -2,7 +2,7 @@
 For each non-empty string, the program splits the string by spaces and
 then prints the pieces that contain av, each on a new line. */
 
-public static class AVClub {
+public class AVClub {
 
 public static void main(String[] args) {
 
