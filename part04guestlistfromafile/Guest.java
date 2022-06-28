@@ -2,10 +2,14 @@
 
 However, the program is missing the functionality needed for reading the guest list. Modify the program so that the names on the guest list are read from the file. */
 
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Guest {
 
-public static void main(String[] args) {       
-Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Name of the file:");
         String file = scanner.nextLine();
@@ -36,5 +40,5 @@ Scanner scanner = new Scanner(System.in);
         }
 
         System.out.println("Thank you!");
-}
+    }
 }
