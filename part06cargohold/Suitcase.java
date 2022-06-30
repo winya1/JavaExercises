@@ -26,6 +26,10 @@ public class Suitcase {
         if (items.isEmpty()) {
             return "no items (0 kg)";
         }
+        if (this.quantity == 1) {
+            return this.quantity + " item" + " (" + this.sum + " kg)";
+        }
+        
         return this.quantity + " items" + " (" + this.sum + " kg)";
     }
 
