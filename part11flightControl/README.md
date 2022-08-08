@@ -1,3 +1,5 @@
+https://java-programming.mooc.fi/part-11/2-packages
+
 In this exercise, you will implement the application that was described above. You are free to design the structure as you wish, or you can follow the structure sketched out above. The appearance of the user interface and the required commands are predefined. This exercise is worth two normal exercise points.
 
 NB: for the tests to work, you can only create one Scanner object in your program to read user input.
@@ -12,7 +14,8 @@ The program should start when the main method of the Main class inside the packa
 
 Example output of the program is presented below:
 
-Part 1: Airport Asset Control
+Sample output
+Airport Asset Control
 Choose an action:
 [1] Add an airplane
 [2] Add a flight
@@ -57,7 +60,7 @@ Choose an action:
 [x] Exit Airport Asset Control
 > x
 
-Part 2: Flight Control
+Flight Control
 Choose an action:
 [1] Print airplanes
 [2] Print flights
