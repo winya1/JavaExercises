@@ -1,6 +1,6 @@
 Let's practice using regular expressions a little. The methods in this exercise should be created in the class Checker.
 
-Part 1: Day of week
+<h2> Part 1: Day of week </h2>
 Use regular expressions to create the method public boolean isDayOfWeek(String string), which returns true if the parameter string is an abbreviation of a day of the week (mon, tue, wed, thu, fri, sat, sun)
 
 Example outputs of a program that uses the method:
@@ -13,7 +13,7 @@ Sample output
 Enter a string: abc
 The form is incorrect.
 
-Part 2: Vowel check
+<h2> Part 2: Vowel check </h2>
 NB. For simplicity's sake, in this exercises the letters that are considered vowels are: a, e, i, o, and u.
 
 Create the method public boolean allVowels(String string) that uses a regular expression to check whether all the characters in the parameter string are vowels.
@@ -28,7 +28,7 @@ Sample output
 Enter a string: queue
 The form is incorrect.
 
-Part 3: Time of day
+<h2> Part 3: Time of day </h2>
 Regular expressions come in handy in certain situations. In some cases the expressions become too complex, and the "correctness" of the string is best checked with some other style. Or it could be beneficial to use regular expressions for only some part of the check.
 
 Create the method public boolean timeOfDay(String string). It should use a regular expression to check whether the parameter string expresses a time of day in the form hh:mm:ss (hours, minutes, and seconds each always take up two spaces).
