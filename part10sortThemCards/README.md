@@ -103,7 +103,7 @@ DIAMOND J
 SPADE J
 HEART J
 
-    <h2> Part 5: Sorting cards with different criteria </h2>
+<h2> Part 5: Sorting cards with different criteria </h2>
 What if we want to sort the cards in different ways, e.g. sorting all the cards of the same suit in a row. A class can only have one compareTo method, so we'll need something else to sort the cards in to a different order.
 
 Alternative sorting systems are possible through different sorting classes. Such a class must have the Comparator<Card> interface. An object of the sorting class will then compare two cards give as parameters. The class only has one method, compare(Card c1, Card c2), which returns a negative value if the card c1 should be sorted before card c2, a positive value if card c2 comes before card c1, and zero if they are equal.
