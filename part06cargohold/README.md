@@ -1,8 +1,8 @@
 Source: https://java-programming.mooc.fi/part-6/1-objects-within-objects
 
-n this exercise, we create the classes Item, Suitcase and Hold to practise the use of objects containing other objects.
+In this exercise, we create the classes Item, Suitcase and Hold to practise the use of objects containing other objects.
 
-Item-class
+<h2> Item-class </h2>
 Create an Item class from which objects can be instantiated to represent different items. The information to store is the name and weight of the item (kg).
 
 Add the following methods to the class:
