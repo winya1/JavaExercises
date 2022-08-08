@@ -1,4 +1,4 @@
-Part 1: Packables
+<h2> Part 1: Packables </h2>
 Moving houses requires packing all your belongings into boxes. Let's imitate that with a program. The program will have boxes, and items to pack into those boxes. All items must implement the following Interface:
 
 public interface Packable {
