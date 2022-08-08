@@ -35,7 +35,7 @@ Pink Floyd: Dark Side of the Moon (1973)
 Wigwam: Nuclear Nightclub (1975)
 Rendezvous Park: Closer to Being Here (2012)
 
-Part 2: Box
+<h2> Part 2: Box </h2>
 Make a class called Box. Items implementing the Packable interface can be packed into a box. The Box constructor takes the maximum capacity of the box in kilograms as a parameter. The combined weight of all items in a box cannot be more than the maximum capacity of the box.
 
 Below is an example of using a box:
@@ -58,7 +58,7 @@ Prints
 Sample output
 Box: 6 items, total weight 4.0 kg
 
-Part 3: Box weight
+<h2> Part 3: Box weight </h2>
 If you made an class variable double weight in the Box class, replace it with a method which calculates the weight of the box:
 
 public class Box {
@@ -74,7 +74,7 @@ When you need the weight of the box, for example when adding a new item to the b
 
 The method could also return the value of an object variable. However here we are practicing a situation, where we do not have to maintain an object variable explicitly, but can calculate its value as needed. After the next exercise storing the weight as an object variable would not necessary work anyway. After completing the exercise have a moment to think why that is.
 
-Part 4: A Box is packable too!
+<h2> Part 4: A Box is packable too! </h2>
 Implementing the Packable Interface requires a class to have the method double weight(). We just added this method to the Box class. This means we can make the Box packable as well!
 
 Boxes are objects, which can contain objects implementing the packable Interface. Boxes implement this Interface as well. So a box can contain other boxes!
