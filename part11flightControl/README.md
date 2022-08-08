@@ -14,85 +14,85 @@ The program should start when the main method of the Main class inside the packa
 
 Example output of the program is presented below:
 
-Sample output
-Airport Asset Control
-Choose an action:
-[1] Add an airplane
-[2] Add a flight
-[x] Exit Airport Asset Control
-> 1
-Give the airplane id: HA-LOL
-Give the airplane capacity: 42
-Choose an action:
-[1] Add an airplane
-[2] Add a flight
-[x] Exit Airport Asset Control
-> 1
-Give the airplane id: G-OWAC
-Give the airplane capacity: 101
-Choose an action:
-[1] Add an airplane
-[2] Add a flight
-[x] Exit Airport Asset Control
-> 2
-Give the airplane id: HA-LOL
-Give the departure airport id: HEL
-Give the target airport id: BAL
-Choose an action:
-[1] Add an airplane
-[2] Add a flight
-[x] Exit Airport Asset Control
-> 2
-Give the airplane id: G-OWAC
-Give the departure airport id: JFK
-Give the target airport id: BAL
-Choose an action:
-[1] Add an airplane
-[2] Add a flight
-[x] Exit Airport Asset Control
-> 2
-Give the airplane id: HA-LOL
-Give the departure airport id: BAL
-Give the target airport id: HEL
-Choose an action:
-[1] Add an airplane
-[2] Add a flight
-[x] Exit Airport Asset Control
-> x
+Sample output </br>
+Airport Asset Control </br>
+Choose an action: </br>
+[1] Add an airplane </br>
+[2] Add a flight </br>
+[x] Exit Airport Asset Control </br>
+> 1 </br>
+Give the airplane id: HA-LOL </br>
+Give the airplane capacity: 42 </br>
+Choose an action: </br>
+[1] Add an airplane </br>
+[2] Add a flight </br>
+[x] Exit Airport Asset Control </br>
+> 1 </br>
+Give the airplane id: G-OWAC </br>
+Give the airplane capacity: 101 </br>
+Choose an action: </br>
+[1] Add an airplane </br>
+[2] Add a flight </br>
+[x] Exit Airport Asset Control </br>
+> 2 </br>
+Give the airplane id: HA-LOL </br>
+Give the departure airport id: HEL </br>
+Give the target airport id: BAL </br>
+Choose an action: </br>
+[1] Add an airplane </br>
+[2] Add a flight </br>
+[x] Exit Airport Asset Control </br>
+> 2 </br>
+Give the airplane id: G-OWAC </br>
+Give the departure airport id: JFK </br>
+Give the target airport id: BAL </br>
+Choose an action: </br>
+[1] Add an airplane </br>
+[2] Add a flight </br>
+[x] Exit Airport Asset Control </br>
+> 2 </br>
+Give the airplane id: HA-LOL </br>
+Give the departure airport id: BAL </br>
+Give the target airport id: HEL </br>
+Choose an action: </br>
+[1] Add an airplane </br>
+[2] Add a flight </br>
+[x] Exit Airport Asset Control </br> 
+> x </br>
 
-Flight Control
-Choose an action:
-[1] Print airplanes
-[2] Print flights
-[3] Print airplane details
-[x] Quit
-> 1
-G-OWAC (101 capacity)
-HA-LOL (42 capacity)
-Choose an action:
-[1] Print airplanes
-[2] Print flights
-[3] Print airplane details
-[x] Quit
-> 2
-HA-LOL (42 capacity) (HEL-BAL)
-HA-LOL (42 capacity) (BAL-HEL)
-G-OWAC (101 capacity) (JFK-BAL)
+Flight Control </br>
+Choose an action: </br>
+[1] Print airplanes </br>
+[2] Print flights </br>
+[3] Print airplane details </br>
+[x] Quit </br>
+> 1 </br>
+G-OWAC (101 capacity) </br>
+HA-LOL (42 capacity) </br>
+Choose an action: </br>
+[1] Print airplanes </br>
+[2] Print flights </br>
+[3] Print airplane details </br>
+[x] Quit </br>
+> 2 </br>
+HA-LOL (42 capacity) (HEL-BAL) </br>
+HA-LOL (42 capacity) (BAL-HEL) </br>
+G-OWAC (101 capacity) (JFK-BAL) </br>
 
-Choose an action:
-[1] Print airplanes
-[2] Print flights
-[3] Print airplane details
-[x] Quit
-> 3
-Give the airplane id: G-OWAC
-G-OWAC (101 capacity)
+Choose an action: </br>
+[1] Print airplanes </br>
+[2] Print flights </br>
+[3] Print airplane details </br>
+[x] Quit </br>
+> 3 </br>
+Give the airplane id: G-OWAC </br>
+G-OWAC (101 capacity) </br>
 
-Choose an action:
-[1] Print airplanes
-[2] Print flights
-[3] Print airplane details
-[x] Quit
-> x
+Choose an action: </br>
+[1] Print airplanes </br>
+[2] Print flights </br>
+[3] Print airplane details </br>
+[x] Quit </br>
+> x </br>
 
 NB For the purposes of the test it is essential that the user interface work exactly as described above. You should probably copy the options printed by the program from here to your code. The tests won't assume that your program is prepared to handle improper input.
