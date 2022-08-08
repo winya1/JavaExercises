@@ -16,13 +16,13 @@ DIAMOND 2
 SPADE A
 HEART Q
 
-Part 1: Comparable Card class
+<h2> Part 1: Comparable Card class </h2>
 Change the Card class to be Comparable. Implement the compareTo method so that using it sorts the cards in ascending order based on their value. If the cards being compared have the same value, they are sorted by club first, diamond second, heart third, and spade last.
 
 Reading Ordinal method of Enum will help you out in sorting the cards by their suit.
 So, for this sorting, the least valuable card is two of clubs and most valuable card is the ace of spades.
 
-Part 2: Hand
+<h2> Part 2: Hand </h2>
 Create a class Hand to represent the cards in a player's hand. Add the following methods to the class:
 
 public void add(Card card) adds a card to the hand
@@ -45,7 +45,7 @@ SPADE 2
 
 Use an ArrayList to store the cards.
 
-Part 3: Sorting the hand
+<h2> Part 3: Sorting the hand </h2>
 Add a method public void sort() to the Hand class, which sorts the cards in the hand. After sorting, the cards are printed in order:
 
 Hand hand = new Hand();
@@ -66,7 +66,7 @@ SPADE 2
 HEART Q
 SPADE A
 
-Part 4: Comparing hands
+<h2> Part 4: Comparing hands </h2>
 In a card game, hands are ranked based on the sum of values of its cards. Modify the Hand class to be comparable based on this criteria, i.e. change the class so that interface Comparable<Hand> applies to it.
 
 Here's an example of a program that compares the hands:
@@ -103,7 +103,7 @@ DIAMOND J
 SPADE J
 HEART J
 
-Part 5: Sorting cards with different criteria
+    <h2> Part 5: Sorting cards with different criteria </h2>
 What if we want to sort the cards in different ways, e.g. sorting all the cards of the same suit in a row. A class can only have one compareTo method, so we'll need something else to sort the cards in to a different order.
 
 Alternative sorting systems are possible through different sorting classes. Such a class must have the Comparator<Card> interface. An object of the sorting class will then compare two cards give as parameters. The class only has one method, compare(Card c1, Card c2), which returns a negative value if the card c1 should be sorted before card c2, a positive value if card c2 comes before card c1, and zero if they are equal.
@@ -151,7 +151,7 @@ Collections.sort(cards, (c1, c2) -> c1.getSuit().ordinal() - c2.getSuit().ordina
 You can learn more about creating sorting classes here.
 Now, create a class BySuitInValueOrder class that has the Comparator interface, which sorts the cards in the same order as in the above example, except that now the cards are sorted by value inside their suit.
 
-Part 6: Sorting the hand by suit
+<h2> Part 6: Sorting the hand by suit </h2>
 Add a method public void sortBySuit() to class Hand. When the method is called, it sorts the cards in the hand with the same logic as in the previous part. After being sorted, the cards are printed in the following order:
 
 Hand hand = new Hand();
